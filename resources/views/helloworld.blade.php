@@ -18,6 +18,10 @@
     @foreach ($numbers as $number)
         <p>{{ $number }}</p>
     @endforeach
+
+    <a href="{{ url('/list') }}">LINK</a>
+
+
 </body>
 
 </html>
